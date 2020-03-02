@@ -1,0 +1,58 @@
+3월 2일 월요일
+<!doctype html>
+<html>
+
+<head> 문서에 대한 정의
+<body>
+
+
+속성 (Attributes)
+
+-링크 태그-
+속성은 html 요소에 대한 추가 정보를 제공
+모든 요소 속성 가질 수 있다
+항상 시작 태그
+name= "value" 와 같은 이름과 값의 쌍으로 제공
+
+<a(이동 링크 테그) href(속성 이름)= "http://www.naver.com(값)"> 네이버 검색 </a>
+링크 속성= a(태그 이름) href(속성 이름) 
+이것은 href 는 a 만 들어감
+
+* 사이트는 http 붙여서 하기: 우리 결혼 했어요 참조
+<p title= "봄아카데미의 비전"> 그대의 가능성을 꽃피우다</p> "" 번갈아가면서 사용
+
+
+-웹접근성-
+alt 속성 이미지를 표시할 수 없는 경우 대체 택스트를 지정한다.
+화면 리더기는 alt 속성 값을 읽을 수 있다.
+이러한 방식으로 시각 장애인들에게 소리로 정보 전달 가능
+<img src="img_design,jpg" alt="웹디자인">
+
+-Lang 속성-
+
+<!doctype html>
+<html lang="en-US"
+
+<html lang= "ko">
+<body>'''' </body>
+</html>
+
+-타이틀 속성-
+제목 꼬리표를 달고 싶을 때 쓰이는 것
+title= "뭐라고 치면 커서를 갖다 대면 입력 값이 나온다"
+<h2 style= "color:green; text-align:center;" title= "Wedding Day">02/ 22</h2>
+
+%: 화면상
+Vh: 유동적으로 공간이 움직임
+
+모바일일 경우에 그 화면에 맞춰서 screen 해줄수 있는 메타테그 넣어야함
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+
+
+
+
+
+
+
