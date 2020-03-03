@@ -48,10 +48,31 @@ Vh: 유동적으로 공간이 움직임
 모바일일 경우에 그 화면에 맞춰서 screen 해줄수 있는 메타테그 넣어야함
 <meta name="viewport" content="width=device-width, user-scalable=no">
 
+-HTML 시작하기-
+html 문서는 html>로 시작하고 </html>
+html 문서 보이는 부분은 <body>와 </body> 사이에 있다.
+
+예시)
+<!DOCTYPE>
+<html>
+    <head>
+    .............
+    </head>
+
+    <body>
+    .............
+    </body>
+</html>
 
 
 
 
+
+-위아래 간격 없애고 싶을 때-
+margin, border, margin-top:0
+
+inline block 줄 바꿈 없이 옆에 계속 붙는것
+block은 아래 붙는거
 
 
 
