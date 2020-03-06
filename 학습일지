@@ -87,4 +87,38 @@ html {font-family:'Nanum Myeongjo', serif; margin:0; border:0; padding:0; font-s
 
 DOM: 부모 자식 관계, 돔트리라고도 불림
 
+doctype 에러 검사 https://validator.w3.org/
 
+html <meta> 요소에
+
+1. 문자 세트 정리
+    <meta charset="UTF-8">
+
+2. 웹페이지에 대한 설명
+    <meta name= "description" content="Free Web tutorials">
+
+3. 검색 엔진에 대한 키워드 정보
+    <meta name="keywords" content="HTML, CSS,
+
+4. 페이지 작성자 정보
+    <meta name="author" content="soo cho"
+
+5. 뷰포트 설정
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+Link 요소
+<link rel="stylesheet" type="text/css" href="theme.css">
+
+<style>
+body {background-color:powderblue}
+h1 {color:red}
+p {color:blue}
+
+</style>
+
+<dl></dl>
+
+<stlye>
+img, p, ul, li {margin:0;}
+#map {background-color:red;}
