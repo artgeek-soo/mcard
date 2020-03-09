@@ -122,3 +122,8 @@ p {color:blue}
 <stlye>
 img, p, ul, li {margin:0;}
 #map {background-color:red;}
+
+.error {color:red;}
+
+
+
