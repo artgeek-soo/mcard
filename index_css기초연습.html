@@ -3,76 +3,146 @@
 <html>
 
 <head>
+
+        <title>모바일 청첩장</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="모바일 청첩장">
+        <meta name="keywords" content="mobile, wedding, 청첩장, 모바일 카드, 바른손">
+        <meta name="author" content="soo cho">
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet" type="text/css">
+
+
+<!-- 초기화 css; 리셋 css. 바디는 그 아래 p,h 태그의 상속 --> 
 
         <style>
-            body {font-family:'Nanum Myeongjo', serif; margin:0; border:0; padding:0; font-size:} <!-- 초기화 css; 리셋 css. 바디는 그 아래 p,h 태그의 상속 --> 
-            p { text-align:center;  font-size:12px;}
+            body {font-family:'Nanum Myeongjo',; font-size:14px; color:black; margin:0; border:0; padding:0;} 
+            p { text-align:center; text-decoration:none; font-size:12px; }
             h1 {display: inline-block; width:25%; margin-left:-4px;}
+            h1, h2, p {text-align: center; font-weight: 100}
+            h1, h2 {font-size: 36px}
+            #map {background-color:rgb(76, 127, 136);}
+            ul { list-style: none}
+
+            .home_date{height: 100vh; width:100vw; background-image: url(image/plant-01.jpg); background-size:cover; background-position: top center; padding-top:500px;}
+            
+            .sns_ul { background-color:#cccccc; padding:0; margin:0; border:0;}
+            .sns_li {display: inline-block; width:25%; margin-left: -4px}
+            
+            .family_ul{ background-color:#eaf1e7; padding-top:36px; padding-bottom: 36px; border:0px; margin:0px;}
+            .family_li {display:inline-block; width:50%; margin-left:-4px; text-align: center;}
+
+            .white {color:white}
+            .line_height_24 {line-height: 24px}
+            .font_size_36px {font-size: 36px}
+            .blue {color:#647e55}
+            .call_image {image/call25.png}
+            
     
         </style>
 
+        <script>
+            function today0306 {
+                document.getElementById("map").innerHTML="Hello Javascript!";
+            }
+        
+        </script>
+
 </head>
 
-<!-- 첫 페이지 (여기다 내용을 쓰면 브라우저가 무시함: 주석) -->
-<div style="height: 100vh; width:100vw; background-image: url(image/plant-01.jpg); background-size:cover; background-position: top center;">
-    <div style="padding-top:500px;"
+<body>
 
+<!-- 첫 페이지 (여기다 내용을 쓰면 브라우저가 무시함: 주석) -->
+
+
+<div class="home_date">
 
     <!-- img style= "width:100%;" src= "image/main_top_bg.jpg"--> <!-- 첫페이지 열기-->
-    <p style= "serif; font-size: 36px; font-weight:900; color:cadetblue;">우리 결혼합니다</h1>
-    <p style= "color:green; font-weight: 300; color:darkslategray;" >02/ 22</h2>
-
-    <p style="margin-top: 72px;">조수인 * 조수인</h3>
+    <p class="line_height_24 font_size_36px blue">우리 결혼합니다</p>
+    <p style= "color:green; font-weight: 300; color:darkslategray;">02/ 22</p>
+    <p style="margin-top: 72px;">조수인 * 조수인</p>
     <p >2020. 02. 22 SAT 12:00 PM </p>
     <p style= "color:darkmagenta;">소풍컨벤션웨딩 7층 라온제나홀</p>
-</div>
+    </div>
 </div>
 
-<div style="background-color:#fbfbfb; rgb(251,251,251) 들중에 하나만 쓰면 됌 샵/ rgb; padding-bottom:72px;">
+<div style="background-color:#fbfbfb; rgb(251,251,251); padding-bottom:72px;">
     <img style="width:100%;" src="image/title_img_1.jpg">
     <p style= "font-size:12px; line-height: 24px;"> 
-    평생을 같이하고 싶은 사람을 만났습니다.<br>
-    서로 아끼며 이해하고, 사랑하며 살겠습니다.<br>
-    저희 약속 위에 따뜻한 격려고 축복해 주시면<br>
-    감사하겠습니다.</p>
+    <b>평생</b>을 같이하고 싶은 <i>사람</i>을 만났습니다.<br>
+    <mark>서로 아끼며</mark> 이해하고, <b>사랑</b>하며 살겠습니다.<br>
+    <small>저희</small> 약속 위에 <del>따뜻한</del> 많은 격려로 <em>축복해</em> 주시면<br>
+    감사하겠습니다. <sup>2</sup> <sub>2</sub>
+</p>
+
+
+<p><abbr title="Cascading Style Sheet">CSS</abbr>CSS는 무엇의 약자인가요?</p>
 
     <img src="image/img1.jpg" style= "width: 100%; margin-top:72px;">
     <p>
     신랑에게 축하인사 &nbsp; <img src= "image/call25.png" style= "width:20px;"> &nbsp;| &nbsp; <img src= "image/sms25.png" style= "width:20px;"> <br>
-    신부에게 축하인사 &nbsp; <img src= "image/call25.png" style= "width:20px;"> &nbsp;| &nbsp; <img src= "image/sms25.png" style= "width:20px;"> </p>
+    신부에게 축하인사 &nbsp; <img src= "image/call25.png" style= "width:20px;"> &nbsp;| &nbsp; <img src= "image/sms25.png" style= "width:20px;">
+    </p>
+
 </div>
+
+
 
 <p style= "color:white; background-color:#647e55; line-height:48px; border:0; margin:0; margin-top:10;">혼주분께 연락하기</p>
 
-<div style="background-color:#eaf1e7; padding-top:36px; padding-bottom: 36px; border:0px; margin:0px;">
-    
-    <div style= "display:inline-block; width:50%; margin-left:-4px">
-        <p>신랑측 혼주<br><br>
-        아버지 유도기<br>
-        <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px"><br>
-        어머니 이순오<br>
-        <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px"> 
-    </p>
+<ul class= "family_ul">
+        <li class="family_li">
+            <p>신랑측 혼주</p>
+            <p>아버지 유도기</p>
+            <p class="call_image"></p>
+            <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px">
+            <p>어머니 이순오</p>
+            <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px">
+        </li>    
 
-    </div>
-    <div style= "display:inline-block; width:50%; margin-left:-4px;"> 
-            <p> 신부측 혼주<br><br>
-            아버지 이중호<br>
-            <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px"><br>
-            어머니 고영심<br>
-            <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px"> 
-        </p>
-      
-        </div>
-</div>
+            <li class="family_li">
+            <p> 신부측 혼주</p>
+            <p>아버지 이중호</p>
+            <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px">
+            <p>어머니 고영심</p>
+            <img src= "image/call25.png" style= "width:20px"> &nbsp; &nbsp; <img src= "image/sms25.png" style="width:20px">
+        </li>
+    </ul>
+
+
+
+
+
+<!-- 예시
+<ol><p>영화 랭킹</p>
+    <li>포드 vs 페라리</li>
+    <li>백두산</li>
+    <li>기생충</li>
+    <li>백두산</li>
+
+</ol>
+
+<ul><p>기생충</p>
+    <dt>감독</dt><dd>봉준호</dd>
+    <dt>배우</dt><dd>송강호</dd>
+</ul>
+<pre>
+        <i>평생을 같이하고 싶은 사람을 만났습니다.</i>
+        서로 아끼며 이해하고, 사랑하며 살겠습니다.
+        저희 약속 위에 따뜻한 격려고 축복해 주시면
+        감사하겠습니다.
+</pre>-->
+
+
+
+<div style="border-top: 10px solid rgb(117, 199, 202); width:100%; height:20px;"></div>
 
 
 <div>
 <img src= "image/title_img_4.jpg" style="width:100%"><br>
 <img src= "image/map.png" style="width:100%; margin: 0; margin-top:60; border:0;"> 
-<p style= "color:white; background-color: dimgrey; line-height:48px; margin:0; border:0; margin-top:0;"><a href="https://map.kakao.com/" style="color: white; text-decoration: none;">카카오맵 바로가기</a>
+<p id="map" style= "color:white; line-height:48px; margin:0; border:0; margin-top:0;"><a href="https://map.kakao.com/" style="color: white; text-decoration: none;">카카오맵 바로가기</a>
     </p> 
 </div>
 
@@ -89,19 +159,18 @@
 
 </p>
     
-
-<div style="background-color: silver; padding-top:30px;">
-
-    <h1 style="height:60px"><img src= "image/btn_facebook.png" style="width:100%"></h1>
-    <h1 style="height:60px"><img src= "image/btn_kakao.png" style="width:100%"></h1>
-    <h1 style="height:60px"><img src= "image/btn_twitter.png" style="width:100%"></div></h1>  
-    <h1 style="height:60px"><img src= "image/btn_story.png" style="width:100%"></h1>
-        
-
 </div>
 
+
+<ul class="sns_ul"> 
+    <li class="sns_li"><img src= "image/btn_facebook.png"></li>    
+    <li class="sns_li"><img src= "image/btn_facebook.png"></li>
+    <li class="sns_li"><img src= "image/btn_twitter.png"></li>   
+    <li class="sns_li"><img src= "image/btn_story.png"></li>
+</ul>
 <p style= "font-size:24px; font-weight:lighter; color:gray; letter-spacing: 15px;">BHANDSCARD</p>
 
 
 </body>
 </html>
+
