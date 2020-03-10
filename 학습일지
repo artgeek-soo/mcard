@@ -127,3 +127,29 @@ img, p, ul, li {margin:0;}
 
 
 
+3월 9일 (월)
+
+1. 박스모델
+2. 마진은 큰 값으로 수렴한다
+3. width 와 height 는 contents 높이
+4. padding은 width & height값에 포함 안된다.
+5. css 네이밍
+6. id 와 class
+7. p class= red height_36 등등 띄어쓰기만 하는거임 
+
+
+3월 10일 (화)
+
+{margin:top right bottom left}
+{padding :top right bottom left} 시계 방향
+
+{padding: 10px; 14px} 위 아래 10px , 오른 왠 14px
+{margin:0 auto;} 위아래:0 auto; -- 자동 가운데 정렬
+{margin-left:auto;} 오른쪽 정렬
+
+CSS 수업
+
+@font-face {font-familyfutura; src: url}
+
+display-flex
+
